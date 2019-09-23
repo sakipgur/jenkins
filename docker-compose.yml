@@ -3,7 +3,7 @@ services:
   app:
     image: vfarcic/go-demo
     ports:
-      - 8090
+      - 8080
 
   db:
     image: mongo:3.2.10
